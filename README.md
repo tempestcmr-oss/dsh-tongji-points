@@ -1,22 +1,23 @@
 # dsh-tongji-points
-[README-github.md](https://github.com/user-attachments/files/34282248/README-github.md)
+[README-github.md](https://github.com/user-attachments/files/34282514/README-github.md)
+
 # dsh-tongji-points
 
 > 查询同济 [agi.tongji.edu.cn](https://agi.tongji.edu.cn) 免费 token 积分余额的 DeepSeek Harness 插件。
 
 [![release](https://img.shields.io/github/v/release/tempestcmr-oss/dsh-tongji-points?label=release)](https://github.com/tempestcmr-oss/dsh-tongji-points/releases/latest)
 [![license](https://img.shields.io/github/license/tempestcmr-oss/dsh-tongji-points)](https://github.com/tempestcmr-oss/dsh-tongji-points/blob/main/LICENSE)
-[![platform](https://img.shields.io/badge/platform-DSH%20desktop%20%7C%20web-lightgrey)]()
+![platform](https://img.shields.io/badge/platform-DSH%20desktop%20%7C%20web-lightgrey)
 
 在 DSH 窗口里浮一个可拖动的小胶囊，实时显示剩余积分。一轮对话结束自动刷新，并在下方弹出本轮消耗了多少。
 
 ```
-   ● 961.72                ← 胶囊：单击展开面板，按住拖动
-      ▽
- ┌───────────────────┐
- │ ● 本轮 -0.42 积分 │    ← 每轮结束弹出，6 秒后淡出
- └───────────────────┘
+  ● 961.72
+     ▽
+  ● 本轮 -0.42 积分
 ```
+
+上方是常驻胶囊：单击展开设置面板，按住拖动位置。下方是每轮结束弹出的消耗提示，6 秒后自动淡出。
 
 ![预览](preview.png)
 
